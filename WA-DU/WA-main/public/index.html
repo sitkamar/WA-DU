@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MeagConverter</title>
+</head>
+
+<body>
+    <h1>Mega Cryptocurrency convertor</h1>
+
+    <form action="./" method="post">
+        <div>
+            <div>
+                <select id="inputState" name="crypto">
+                    <option selected> BTC</option>
+                    <option>LTC</option>
+                    <option>XMR</option>
+                    <option>DGB</option>
+                </select>
+            </div>
+            <div>
+                <input type="number" id="amount" name="amount"/>
+            </div>
+            <div>
+                <select id="outputState" name="money">
+                    <option selected> CZK</option>
+                    <option>EUR</option>
+                    <option>USD</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button type="submit" id="submit">Convert</button>
+        </div>
+    </form>
+</body>
+
+</html>
